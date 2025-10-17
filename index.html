@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortaleza Gym | Entrenamiento Personalizado por Anabella Lupori</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* ESTILOS INLINE MÍNIMOS PARA VISUALIZACIÓN INMEDIATA (TEMPORAL) */
+        body { font-family: 'Roboto', sans-serif; margin: 0; background-color: #0d0d0d; color: #ffffff; }
+        .bg-dark { background-color: #0d0d0d; }
+        .text-light { color: #ffffff; }
+        .text-accent-green { color: #84cc16; } /* Verde Limón (CTA) */
+        .btn-cta-green { background-color: #84cc16; color: #0d0d0d; padding: 14px 30px; border: none; cursor: pointer; text-transform: uppercase; font-weight: 900; border-radius: 5px; text-decoration: none; transition: background-color 0.3s; }
+        .btn-cta-green:hover { background-color: #a3e635; }
+        .text-accent-blue { color: #38bdf8; } /* Azul Claro (Confiabilidad) */
+        .text-accent-magenta { color: #ec4899; } /* Magenta (Pasión/Foco Personal) */
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header, section { padding: 80px 0; }
+        header { padding: 20px 0; border-bottom: 1px solid #333; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        nav ul { list-style: none; display: flex; gap: 30px; }
+        nav a { color: #ffffff; text-decoration: none; font-weight: 500; }
+        .hero { text-align: center; height: 90vh; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center; /* Imagen de Anabella o entrenamiento en el gym */ }
+        h1 { font-size: 4rem; text-transform: uppercase; margin-bottom: 15px; line-height: 1.1; font-weight: 900; }
+        h2 { font-size: 2.5rem; text-align: center; margin-bottom: 40px; text-transform: uppercase; }
+        .logo-text { font-size: 1.8rem; font-weight: 900; }
+        .intro-section { display: flex; align-items: center; gap: 40px; }
+        .intro-section img { max-width: 400px; border-radius: 10px; object-fit: cover; border: 3px solid #ec4899; }
+        .service-card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .service-card { background-color: #1a1a1a; padding: 40px 20px; border-top: 4px solid; border-radius: 8px; text-align: center; }
+        .service-card i { font-size: 3rem; margin-bottom: 15px; }
+        .quote-box { background-color: #1a1a1a; padding: 60px; margin: 60px 0; border-left: 5px solid #84cc16; }
+        footer { text-align: center; padding: 40px 0; border-top: 1px solid #333; }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+
+    <header class="bg-dark">
+        <div class="container">
+            <nav>
+                <div class="logo-text text-light">FORTALEZA <span class="text-accent-magenta">GYM</span></div>
+                <ul>
+                    <li><a href="#anabella">La Coach</a></li>
+                    <li><a href="#servicios">Mi Método</a></li>
+                    <li><a href="#instalaciones">El Estudio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="#contacto" class="btn-cta-green">¡Empieza Aquí!</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero bg-dark">
+        <div class="container">
+            <h1 class="text-light">
+                FORTALEZA GYM: <br>
+                TU PROGRAMA PERSONALIZADO <br>
+                POR <span class="text-accent-green">ANABELLA LUPORI</span>.
+            </h1>
+            <p class="text-light" style="font-size: 1.5rem; margin-bottom: 40px;">Entrenamiento de precisión en un ambiente exclusivo. Diseñado para resultados reales.</p>
+            <a href="#contacto" class="btn-cta-green" style="font-size: 1.2rem;">QUIERO MI EVALUACIÓN SIN CARGO</a>
+        </div>
+    </section>
+
+    <section id="anabella" class="container" style="padding: 100px 0;">
+        <div class="intro-section">
+            <div style="flex-shrink: 0;">
+                <img src="anabella_luppri_profile.jpg" alt="Foto de Anabella Luppri, Entrenadora Personal de Fortaleza Gym" style="width: 100%; height: auto;">
+            </div>
+            <div>
+                <h2 class="text-accent-magenta" style="text-align: left; margin-top: 0;">Tu Entrenadora: Anabella Lupori</h2>
+                <p style="font-size: 1.1rem;">En **Fortaleza Gym**, no obtienes una membresía; obtienes un plan de acción guiado por mí. Mi compromiso es con tu transformación, utilizando la **ciencia del deporte y mi experiencia** para crear la ruta más eficiente hacia tus metas.</p>
+                <p style="font-size: 1.1rem;">Si estás cansado de las rutinas genéricas y buscas un servicio 1 a 1 que te rete constantemente, te enseñe la técnica correcta y garantice un progreso medible, has llegado al lugar correcto. </p>
+                <a href="#servicios" class="text-accent-blue" style="text-decoration: none; font-weight: 700;">Ver los Beneficios del Entrenamiento Personalizado <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" style="background-color: #070707; padding: 100px 0;">
+        <div class="container">
+            <h2 class="text-light">El Método Exclusivo de Fortaleza Gym</h2>
+            <div class="service-card-grid">
+                <div class="service-card" style="border-color: #84cc16;">
+                    <i class="fas fa-calendar-check text-accent-green"></i>
+                    <h3 class="text-accent-green">Diseño de Programa 1 a 1</h3>
+                    <p>Cada ejercicio, serie y repetición es parte de un plan maestro diseñado únicamente para ti y tus objetivos.</p>
+                </div>
+                <div class="service-card" style="border-color: #38bdf8;">
+                    <i class="fas fa-medal text-accent-blue"></i>
+                    <h3 class="text-accent-blue">El Estudio de Alto Rendimiento</h3>
+                    <p>Entrena con equipo profesional en nuestro estudio privado, minimizando distracciones y maximizando la concentración.</p>
+                </div>
+                <div class="service-card" style="border-color: #ec4899;">
+                    <i class="fas fa-chart-line text-accent-magenta"></i>
+                    <h3 class="text-accent-magenta">Corrección y Medición Continua</h3>
+                    <p>Monitoreo de la forma, la progresión de cargas y métricas corporales para asegurar que siempre avances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="quote-box">
+            <p style="font-style: italic; font-size: 1.3rem;">"Contratar el servicio de Entrenamiento Personalizado de Fortaleza Gym con Anabella fue la mejor inversión. No solo es una coach increíble, sino que el ambiente de entrenamiento es insuperable. Dejé de estancarme y ahora veo resultados todas las semanas."</p>
+            <p class="text-accent-green" style="text-align: right; margin-top: 20px;">— [Franco Peruzzi], Cliente de Alto Rendimiento</p>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-dark">
+        <div class="container">
+            <h2 style="font-size: 2rem;">Agenda tu Sesión Introductoria en Fortaleza Gym</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">[Mejico 1055 , B Pueyrredon , Cordoba Argentina].</p>
+            <a href="#" class="btn-cta-green" style="font-size: 1.2rem;">CONTACTAR A ANABELLA (Vía WhatsApp)</a>
+            <p style="margin-top: 25px;">Teléfono: [+54 9 351 203 1342] | Email: Anabella.pileta@gmail.com</p>
+            <p style="margin-top: 15px;">
+                <a href="#" class="text-accent-magenta" style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-accent-blue" style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.8rem;">&copy; 2025 Fortaleza Gym Entrenamiento Personalizado. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
